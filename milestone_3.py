@@ -10,7 +10,6 @@ print(random_word)
 while True:
     guess = input('Enter a single letter: ').lower()
     if len(guess) == 1 and guess.isalpha():
-        print('Good guess!')
         break
     
     else:
